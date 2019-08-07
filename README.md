@@ -1,4 +1,5 @@
-# ProgrammingExercises
+# Programming Exercises
+This will host programming exercises I will do for fun/practice.
 
 ## Longest Increasing Subsequence
 This program returns the longest increasing subsequence of a Python list. 
