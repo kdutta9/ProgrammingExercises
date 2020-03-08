@@ -6,3 +6,4 @@ This will host programming exercises I will do for fun/practice - I'll do my bes
 
 2. [Jewels in Stones](https://leetcode.com/problems/jewels-and-stones/)
 
+3. [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
