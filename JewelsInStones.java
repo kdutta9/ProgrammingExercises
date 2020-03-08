@@ -2,6 +2,7 @@ import java.util.HashMap;
 
 class JewelsInStones {
     // Leetcode 771 (Easy)
+    // https://leetcode.com/problems/jewels-and-stones/
 
     public static void main(String[] args) {
         if (args.length != 2) {
