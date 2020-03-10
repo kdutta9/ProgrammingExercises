@@ -27,7 +27,7 @@ class FibDP {
         } else if (x == 1) {
             return 1;
         }
-        return recursiveFib(x-1) + recursiveFib(x-2);
+        return fib(x-1) + fib(x-2);
     }
 
     public static int fib(int x) {
