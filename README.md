@@ -12,5 +12,6 @@ This will host programming exercises I will do for fun/practice - I'll do my bes
 
 ### Medium
 1. [Dynamic Fibonacci Number](https://www.youtube.com/watch?v=5dRGRueKU3M)
+2. [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)
 
 ### Hard
