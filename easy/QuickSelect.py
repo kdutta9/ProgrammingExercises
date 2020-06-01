@@ -1,2 +1,0 @@
-def quickSelect(arr, k):
-
