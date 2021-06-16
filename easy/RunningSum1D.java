@@ -5,12 +5,29 @@
 **/
 
 class Solution {
+	/* If you can do this destructively,
+	   then modify the input directly
+	   by adding the prior element. */
     public int[] runningSum(int[] nums) {
-        int prevSum = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            nums[i] = prevSum + nums[i];
-            prevSum = nums[i];
+        for (int i = 0; i < nums.length - 1; i++) {
+            nums[i+1] += nums[i];
         }
+        
         return nums;
+    }
+    
+    /* If you need to create a new array,
+	   then track the running sum using a 
+	   sum variable and setting each successive index
+	   to the running sum at each iteration. */
+    public int[] runningSumCreateNew(int[] nums) {
+        int[] res = new int[nums.length];
+        int runSum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            runSum += nums[i];
+            res[i] = runSum;
+        }
+        
+        return res;
     }
 }
