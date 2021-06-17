@@ -6,11 +6,13 @@
 
 class Solution {
     public int[] shuffle(int[] nums, int n) {
-        int[] res = new int[2 * n];
-        for (int i = 0, j = n, idx = 0; idx < res.length; i++, j++) {
-            res[idx++] = nums[i];
-            res[idx++] = nums[j];
-        } 
+        int[] res = new int[nums.length];
+        
+        /* Separately track result index and input index. */
+        for (int i = 0, j = 0; i < nums.length; i=i+2, j++) {
+            res[i] = nums[j];
+            res[i+1] = nums[j+n];
+        }
         
         return res;
     }
